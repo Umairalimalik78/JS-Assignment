@@ -241,3 +241,222 @@ document.write("<br> Amount of snacks per day: " + snacksPerDay);
 document.write("<br> You will need " + totalSnacksNeed + " chocolate chip to last you until the ripe old age of " + maxAge);
 
 document.write("<h2>Chapter 5 ✔</h2>")
+
+// -------------------------------------> Chapter 6-9 <-------------------------------------------
+// Q1
+// let currentValue = prompt("Enter a number", 10)
+// document.write("Result: ")
+// document.write("<br> The value of a is: " + currentValue)
+// document.write("<br> .............................")
+// document.write("<br> The value of ++a is: " + (++currentValue))
+// document.write("<br> Now the value of a is: " + currentValue)
+// document.write("<br><br> The value of a++ is: " + (currentValue++))
+// document.write("<br> Now the value of a is: " + currentValue)
+// document.write("<br><br> The value of --a is: " + (--currentValue))
+// document.write("<br> Now the value of a is: " + currentValue)
+// document.write("<br><br> The value of a-- is: " + (currentValue--))
+// document.write("<br> Now the value of a is: " + currentValue)
+
+// Q2
+// let a = 2, b = 1
+// let result = --a - --b + ++b + b--
+// document.write("a is: " + a)
+// document.write("<br> b is: " + b)
+// document.write("<br> result is: " + result)
+
+// Q3
+// let userName = prompt("Enter your name", "Umair")
+// alert("Hello " + userName + "\nwelcome to our website")
+
+// Q5
+// let tableNum = prompt("Enter a number to show its multiplication table", 5)
+// document.write("<br><br> <b>Table of " + tableNum + "</b>")
+// document.write("<br>" + tableNum + " x 1 = " + tableNum * 1)
+// document.write("<br>" + tableNum + " x 2 = " + tableNum * 2)
+// document.write("<br>" + tableNum + " x 3 = " + tableNum * 3)
+// document.write("<br>" + tableNum + " x 4 = " + tableNum * 4)
+// document.write("<br>" + tableNum + " x 5 = " + tableNum * 5)
+// document.write("<br>" + tableNum + " x 6 = " + tableNum * 6)
+// document.write("<br>" + tableNum + " x 7 = " + tableNum * 7)
+// document.write("<br>" + tableNum + " x 8 = " + tableNum * 8)
+// document.write("<br>" + tableNum + " x 9 = " + tableNum * 9)
+// document.write("<br>" + tableNum + " x 10 = " + tableNum * 10)
+
+// Q6
+// Not learned yet
+document.write("<h2>Chapter 6 ✔</h2>")
+document.write("<h2>Chapter 7 ✔</h2>")
+document.write("<h2>Chapter 8 ✔</h2>")
+
+// ----------------------------------> Chapter 9-11 <-------------------------------------------
+// Q1
+// let city = prompt("Enter a city name", "Karachi")
+// if (city == "Karachi") {
+//     alert("Welcome to the city of lights")
+// }
+
+// Q2
+// let gender = prompt("Enter your gender")
+// if (gender == "male") {
+//     alert("Good Morning Sir")
+// }
+// if (gender == "female") {
+//     alert("Good Morning Ma'am")
+// }
+
+// Q3
+// let trafficSignal = prompt("Enter traffic signal color")
+// if (trafficSignal == "red") {
+//     alert("Must Stop")
+// }
+// if (trafficSignal == "yellow") {
+//     alert("Ready to Move")
+// }
+// if (trafficSignal == "green") {
+//     alert("Move Now")
+// }
+
+// Q4
+// let fuel = prompt("Enter remaining fuel in car (in litres)")
+// if (fuel < 0.25) {
+//     alert("Please refill the fuel in your car")
+// }
+
+// Q5
+// let p = 4
+// if (++p === 5) {
+//     alert("given condition for variable p is true")
+// }
+
+// let q = 82
+// if (q++ === 83) {
+//     alert("given condition for variable q is true")
+// }
+
+// let r = 12
+// if (r++ === 13) {
+//     alert("condition 1 is true")
+// }
+// if (r === 13) {
+//     alert("condition 2 is true")
+// }
+// if (++r < 14) {
+//     alert("condition 3 is true")
+// }
+// if (r === 14) {
+//     alert("condition 4 is true")
+// }
+
+// let materialCost = 20000
+// let laborCost = 2000
+// let totalCost = materialCost + laborCost
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals")
+// }
+
+// if (true) {
+//     alert("True")
+// }
+// if (false) {
+//     alert("False")
+// }
+
+// if ("car" < "cat") {
+//     alert("car is smaller than cat")
+// }
+
+// Q6
+// let MathobtainedMarks = prompt("Enter obtained marks in Maths", 88)
+// let PhysicsobtainedMarks = prompt("Enter obtained marks in Physics", 90)
+// let ChemistryobtainedMarks = prompt("Enter obtained marks in Chemistry", 85)
+// let yourTotalMarks = 300
+// let yourObtainedMarks = (+MathobtainedMarks) + (+PhysicsobtainedMarks) + (+ChemistryobtainedMarks)
+// let percentage = (yourObtainedMarks / yourTotalMarks) * 100
+// document.write("<b>Marks Sheet</b>")
+// document.write("<br><br> Total Marks: " + yourTotalMarks)
+// document.write("<br> Marks Obtained: " + yourObtainedMarks)
+// document.write("<br> Percentage: " + percentage + "%")
+// if (percentage >= 80) {
+//     document.write("<br> Grade: A-one")
+//     document.write("<br> Remarks: Excellent")
+// }
+// else if (percentage >= 70) {
+//     document.write("<br> Grade: A")
+//     document.write("<br> Remarks: Good")
+// }
+// else if (percentage >= 60) {
+//     document.write("<br> Grade: B")
+//     document.write("<br> Remarks: You need to improve")
+// }
+// else {
+//     document.write("<br> Grade: Fail")
+//     document.write("<br> Remarks: Sorry")
+// }
+
+// Q7
+// let secretNumber = 7
+// let userGuess = +prompt("Guess the secret number (between 1 and 10)")
+// if (userGuess === secretNumber) {
+//     alert("Bingo! Correct answer")
+// }
+// else if (userGuess === secretNumber + 1 || userGuess === secretNumber - 1) {
+//     alert("Close enough to the correct answer")
+// }
+
+// Q8
+// let number = +prompt("Enter a number to check if it is divisible by 3 or not", 15)
+// if (number % 3 === 0) {
+//     alert(number + " is divisible by 3")
+// }
+// else {
+//     alert(number + " is not divisible by 3")
+// }
+
+// Q9
+// let number = +prompt("Enter a number to check if it is even or odd", 10)
+// if (number % 2 === 0) {
+//     alert(number + " is an even number")
+// }else {
+//     alert(number + " is an odd number")
+// }
+
+// Q10
+// let T = +prompt("Enter temperature to check weather", 30)
+// if (T > 40) {
+//     alert("It is too hot outside.")
+// }
+// else if (T > 30) {
+//     alert("The Weather today is Normal.")
+// }
+// else if (T > 20) {
+//     alert("Today’s Weather is cool.")
+// }
+// else if (T > 10) {
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+
+// Q11
+// let firstNumber = +prompt("Enter first number", 10)
+// let secondNumber = +prompt("Enter second number", 20)
+// let operator = prompt("Enter operation to perform (+, -, *, /, %)", "+")
+// let result
+// if (operator === "+") {
+//     result = firstNumber + secondNumber
+// }
+// else if (operator === "-") {
+//     result = firstNumber - secondNumber
+// }
+// else if (operator === "*") {
+//     result = firstNumber * secondNumber
+// }
+// else if (operator === "/") {
+//     result = firstNumber / secondNumber
+// }
+// else if (operator === "%") {
+//     result = firstNumber % secondNumber
+// }
+// alert("Result: " + result)
+
+document.write("<h2>Chapter 9 ✔</h2>")
+document.write("<h2>Chapter 10 ✔</h2>")
+document.write("<h2>Chapter 11 ✔</h2>")

@@ -460,3 +460,105 @@ document.write("<h2>Chapter 8 ✔</h2>")
 document.write("<h2>Chapter 9 ✔</h2>")
 document.write("<h2>Chapter 10 ✔</h2>")
 document.write("<h2>Chapter 11 ✔</h2>")
+
+// ----------------------------------> Chapter 12-13 <-------------------------------------------
+// Q1
+// let char = prompt("Enter a character", "A").charCodeAt(0)
+// if (char >= 65 && char <= 90) {
+//     alert("The character is an uppercase letter")
+// }
+// else if (char >= 97 && char <= 122) {
+//     alert("The character is a lowercase letter")
+// }
+// else if (char >= 48 && char <= 57) {
+//     alert("The character is a number")
+// }
+// else {
+//     alert("The character is not an uppercase letter, lowercase letter, or number")
+// }
+
+// Q2
+// let int1 = +prompt("Enter first integer", 10)
+// let int2 = +prompt("Enter second integer", 20)
+// if (int1 > int2) {
+//     alert(int1 + " is larger than " + int2)
+// }
+// else if (int2 > int1) {
+//     alert(int2 + " is larger than " + int1)
+// }
+// else if (int1 === int2) {
+//     alert("Both integers are equal")
+// }
+// else {
+//     alert("Enter valid integers")
+// }
+
+// Q3
+// let number = +prompt("Enter a number to check if it is positive, negative, or zero", 0)
+// if (number > 0) {
+//     alert(number + " is a positive number")
+// }
+// else if (number < 0) {
+//     alert(number + " is a negative number")
+// }
+// else if (number === 0) {
+//     alert("The number is zero")
+// }
+// else {
+//     alert("Enter a valid number")
+// }
+
+// Q4
+// let vowel = prompt("Enter a character to check if it is a vowel or not", "A").toLowerCase()
+// if (vowel == "a" || vowel == "e" || vowel == "i" || vowel == "o" || vowel == "u") {
+//     alert(vowel + " is a vowel")
+// }
+// else {
+//     alert(vowel + " is not a vowel")
+// }
+
+// Q5
+// let password = "Maliksahab78"
+// let userPassword = prompt("Enter your password")
+// if (userPassword === "") {
+//     alert("Please enter your password")
+// }
+// else if (userPassword === password) {
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else {
+//     alert("Incorrect password")
+// }
+
+// Q6
+// let greeting
+// let hour = 19
+// if (hour < 18) {
+//     greeting = "Good day"
+// }
+// else {    
+//     greeting = "Good evening"
+// }
+// alert(greeting)
+
+// Q7
+// let time = +prompt("Enter time in 24-hour format (e.g., 1900 for 7 PM)", 1900)
+
+// if (time >= 0000 && time < 1200) {
+//     alert("Good morning!")
+// }
+// else if (time >= 1200 && time < 1700) {
+//     alert("Good afternoon!")
+// }
+// else if (time >= 1700 && time < 2100) {
+//     alert("Good evening!")
+// }
+// else if (time >= 2100 && time <= 2359) {
+//     alert("Good night!")
+// }
+// else {
+//     alert("Please enter a valid time in 24-hour format")
+// }
+
+document.write("<h2>Chapter 12 ✔</h2>")
+document.write("<h2>Chapter 13 ✔</h2>")

@@ -209,7 +209,7 @@ document.write("<br> Total Currency in PKR: " + totalPKR)
 
 // Q10
 let someValue = 23
-console.log("Total is: " + ((someValue + 5) * 10) / 2)
+// console.log("Total is: " + ((someValue + 5) * 10) / 2)
 
 // Q11
 let currentYear = 2026
@@ -562,3 +562,118 @@ document.write("<h2>Chapter 11 ✔</h2>")
 
 document.write("<h2>Chapter 12 ✔</h2>")
 document.write("<h2>Chapter 13 ✔</h2>")
+
+// ----------------------------------> Chapter 14-16 <-------------------------------------------
+// Q1
+// let studentNames = []
+
+// Q2
+let studentNames = new Array()
+
+// Q3
+let stringArray = ["Umair", "Ali", "Malik"]
+
+// Q4
+let numberArray = [1, 2, 3, 4, 5]
+
+// Q5
+let booleanArray = [true, false, true]
+
+// Q6
+let mixedArray = ["Umair", 23, true, "Ali", 45, false]
+
+// Q7
+let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"]
+document.write("<b>Qualifications:</b>")
+document.write("<br><br> 1) " + qualifications[0])
+document.write("<br> 2) " + qualifications[1])
+document.write("<br> 3) " + qualifications[2])
+document.write("<br> 4) " + qualifications[3])
+document.write("<br> 5) " + qualifications[4])
+document.write("<br> 6) " + qualifications[5])
+document.write("<br> 7) " + qualifications[6])
+document.write("<br> 8) " + qualifications[7])
+
+// Q8
+let student_Names = ["Umair", "Amir", "Shahid"]
+let studentScores = [320, 230, 480]
+let total_Marks = 500
+
+document.write("<br><br> <b>Student Scores:</b>")
+document.write("<br><br> Score of " + student_Names[0] + " is " + studentScores[0] + ". Percentage: " + (studentScores[0] / total_Marks) * 100 + "%")
+document.write("<br> Score of " + student_Names[1] + " is " + studentScores[1] + ". Percentage: " + (studentScores[1] / total_Marks) * 100 + "%")
+document.write("<br> Score of " + student_Names[2] + " is " + studentScores[2] + ". Percentage: " + (studentScores[2] / total_Marks) * 100 + "%")
+
+// Q9
+let colorNames = ["Red", "Green", "Blue"]
+console.log(colorNames)
+
+// a
+// let askedColor = prompt("Which color you want to add to the beginning ", "Yellow")
+// colorNames.unshift(askedColor)
+// console.log("After adding " + askedColor + " color to the beginning --> " + colorNames)
+
+// b
+// askedColor = prompt("Which color you want to add to the ending ", "Brown")
+// colorNames.push(askedColor)
+// console.log("After adding " + askedColor + " color to the end --> " + colorNames)
+
+// c
+colorNames.unshift("Pink","Purple")
+console.log("After adding 2 more colors colors to beginning --> " + colorNames)
+
+// d
+colorNames.shift()
+console.log("After deleting first color --> " + colorNames)
+
+// e
+colorNames.pop()
+console.log("After deleting last color --> " + colorNames)
+
+// f
+// let askedIndex = prompt("At which index you want to add a color?", 2)
+// askedColor = prompt("Which color you want to add?", "Orange")
+// colorNames.splice(askedIndex, 0, askedColor)
+// console.log("After adding " + askedColor + " color at index " + askedIndex + " --> " + colorNames)
+
+// g
+// askedIndex = prompt("At which index you want to delete color(s)?", 1)
+// let deleteCount = prompt("How many colors you want to delete?", 1)
+// colorNames.splice(askedIndex, deleteCount)
+// console.log("After deleting " + deleteCount + " color(s) from index " + askedIndex + " --> " + colorNames)
+
+// Q10
+// let studentScores2 = [320, 230, 480, 120]
+// console.log("Scores of students: " + studentScores2)
+// studentScores2.sort()
+// console.log("Ordered scores of students: " + studentScores2)
+
+// Q11
+// let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"]
+// console.log("Cities list: " + cities)
+// let selectedCities = cities.slice(2, 4)
+// console.log("Selected cities list: " + selectedCities)
+
+// Q12
+// let arr = ["This", "is", "my", "cat"]
+// console.log("Array: " + arr)
+// let string = arr.join(" ")
+// console.log("String: " + string)
+
+// Q13
+let arr2 = [];
+arr2.push("This")
+arr2.push("is")
+arr2.push("my")
+arr2.push("laptop")
+console.log("Array: " + arr2)
+
+console.log("Out:\n"+ arr2.shift())
+console.log("Out:\n"+ arr2.shift())
+console.log("Out:\n"+ arr2.shift())
+console.log("Out:\n"+ arr2.shift())
+console.log("Array after removing all elements: " + arr2)
+
+document.write("<h2>Chapter 14 ✔</h2>")
+document.write("<h2>Chapter 15 ✔</h2>")
+document.write("<h2>Chapter 16 ✔</h2>")

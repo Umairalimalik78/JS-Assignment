@@ -677,3 +677,113 @@ console.log("Array after removing all elements: " + arr2)
 document.write("<h2>Chapter 14 ✔</h2>")
 document.write("<h2>Chapter 15 ✔</h2>")
 document.write("<h2>Chapter 16 ✔</h2>")
+
+// ----------------------------------> Chapter 17-20 <-------------------------------------------
+// Q1
+// let multiDimensionalArray = [[], [], []]
+
+// Q2
+let multiDimensionalArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+console.log(multiDimensionalArray)
+
+// Q3
+for(let i = 1 ; i<=10 ; i++){
+    console.log(i)
+}
+
+// Q4
+// let table_Number = prompt("Enter number to show multiplication table",3)
+// let tableLength = prompt("Enter length of multiplication table",10) 
+
+// for(let i=1 ; i<=tableLength ; i++){
+//     console.log(table_Number , " x " , i , " = " , table_Number*i)
+// }
+
+// Q5
+let fruits = ["apple" , "banana" , "mango" , "orrange" , "strawberry"]
+console.log(fruits)
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log("Element at index " , i , " is " , fruits[i])    
+}
+
+// Q6
+document.write("Counting: ")
+for (let i = 1; i <= 15; i++) {
+    document.write(i , ", ")
+}
+
+document.write("<br>Reverse Counting: ")
+for (let i = 10; i >= 1; i--) {
+    document.write(i , ", ")
+}
+
+document.write("<br>Even: ")
+for (let i = 0; i <= 20; i+=2) {
+    document.write(i , ", ")
+}
+
+document.write("<br>Odd: ")
+for (let i = 1; i <= 20; i+=2) {
+    document.write(i , ", ")
+}
+
+document.write("<br>Series: ")
+for (let i = 2; i <= 20; i+=2) {
+    document.write(i , "k, ")
+}
+
+// Q7
+// let umairBakery = ["cookie" , "cake" , "apple pie" , "chips" , "patties"]
+// let orderedItem = prompt("Welcome to Umair bakery. What do you want to order sir?", "cookie")
+// let found = false;
+
+// for (let i = 0; i < umairBakery.length; i++) {
+//     if (umairBakery[i] == orderedItem) {
+//         console.log(orderedItem , " is available at index " , i , " in our bakery")
+//         found = true;
+//         break;
+//     }
+// }
+// if (!found) {
+//     console.log("We are sorry!" , orderedItem , " is not available in our bakery")
+// }
+
+// Q8
+let myNumArray = [23,5,13,34,96,66,128]
+document.write("<br><br>Array items: " , myNumArray)
+
+let largestNum = myNumArray[0]
+for (let i = 0; i < myNumArray.length; i++) {
+    for (let j = 0; j < i; j++) {
+        if (myNumArray[j] > largestNum) {
+            largestNum = myNumArray[j]
+        }
+    }
+}
+document.write("<br>Largest Number is: " , largestNum)
+
+// Q9
+document.write("<br><br>Array items: " , myNumArray)
+let smallestNum = myNumArray[0]
+for (let i = 0; i < myNumArray.length; i++) {
+    for (let j = 0; j < i; j++) {
+        if (myNumArray[j] < smallestNum) {
+            smallestNum = myNumArray[j]
+        }
+    }
+}
+document.write("<br>Smallest Number is: " , smallestNum)
+
+// Q10
+document.write("<br><br>Multiples of 5 between 1 and 100:<br>")
+for (let i = 1; i <= 100; i++) {
+    if (i % 5 === 0) {
+        document.write(i , ", ")
+    }
+}
+
+document.write("<h2>Chapter 17 ✔</h2>")
+document.write("<h2>Chapter 18 ✔</h2>")
+document.write("<h2>Chapter 19 ✔</h2>")
+document.write("<h2>Chapter 20 ✔</h2>")

@@ -787,3 +787,134 @@ document.write("<h2>Chapter 17 ✔</h2>")
 document.write("<h2>Chapter 18 ✔</h2>")
 document.write("<h2>Chapter 19 ✔</h2>")
 document.write("<h2>Chapter 20 ✔</h2>")
+
+// ----------------------------------> Chapter 21-25 <-------------------------------------------
+
+// Q1
+// let firstName = prompt("Enter your first name", "Umair")
+// let lastName = prompt("Enter your last name", "Ali")
+// let fullName = firstName + " " + lastName
+// alert("Hello " + fullName + "\nWelcome to our website")
+
+// Q2
+// let favPhone = prompt("Enter your favourite phone model", "iPhone 14 Pro Max")
+// document.write("My favourite phone is: " + favPhone)
+// document.write("<br>Length of string: " + favPhone.length)
+
+// Q3
+let word = "Pakistan"
+document.write("String: " + word)
+document.write("<br>Index of 'n' is: " , word.indexOf("n"))
+
+// Q4
+word = "Hello World"
+document.write("<br><br>String: " + word)
+document.write("<br>Last index of 'l' is: " , word.lastIndexOf("l"))
+
+// Q5
+word = "Pakistani"
+document.write("<br><br>String: " + word)
+document.write("<br>Character at index 3 is: " , word.charAt(3))
+
+// Q6
+// let firstName = prompt("Enter your first name", "Umair")
+// let lastName = prompt("Enter your last name", "Ali")
+// let fullName = firstName.concat(" ", lastName)
+// alert("Hello " + fullName + "\nWelcome to our website")
+
+// Q7
+word = "Hyderabad"
+document.write("<br><br>City: " + word)
+word = word.replace("Hyder", "Islam")
+document.write("<br>After replacement: " + word)
+
+// Q8
+let message = "Ali and Sami are best friends. They play cricket and football together."
+document.write("<br><br>Message: " + message)
+message = message.replace(/and/g, "&")
+document.write("<br>After replacement: " + message)
+
+// Q9
+let numString = "472"
+document.write("<br><br>Value: " + numString)
+document.write("<br>Type: " + typeof(numString))
+numString = parseInt(numString)
+document.write("<br>Value: " + numString)
+document.write("<br>Type: " + typeof(numString))
+
+// Q10
+// let userInput = prompt("Enter a string", "umairalimalik")
+// document.write("<br><br>User input: " + userInput)
+// document.write("<br>Upper case: " + userInput.toUpperCase())
+
+// Q11
+// userInput = prompt("Enter a string", "umairalimalik")
+// document.write("<br><br>User input: " + userInput)
+// userInput = userInput.charAt(0).toUpperCase() + userInput.slice(1).toLowerCase()
+// document.write("<br>Title case: " + userInput)
+
+// Q12
+let num = 87.36
+document.write("<br><br>Number: " + num)
+num = num.toString().replace(".", "")
+document.write("<br>Result: " + num)
+
+// Q13
+// let userName = prompt("Enter username", "umairali78")
+// if (userName.includes("@") || userName.includes(".") || userName.includes(",") || userName.includes("!")) {
+//     alert("Please enter a valid username without any of these characters: @ . , !")
+//     userName = prompt("Enter username", "umairali78")
+// }
+
+//Q14
+// let myBakery = ["cake", "apple pie", "cookie", "chips", "patties"]
+// let searchItem = prompt("Welcome to Umair Bakers Bakery. What do you want to order? ", "patties").toLowerCase()
+// let found = false
+// for (let i = 0; i < myBakery.length; i++) {
+//     if (myBakery[i] === searchItem) {
+//         alert(searchItem + " is available at index " + i + " in our bakery")
+//         found = true
+//         break
+//     }
+// }
+// if (!found) {
+//     alert("We are sorry! " + searchItem + " is not available in our bakery")
+// }
+
+// Q15
+// let password = prompt("Enter your password", "abc123")
+// if (password.length < 6) {
+//     alert("Password must be at least 6 characters long")
+// }
+// else if(password[0] >= "0" && password[0] <= "9"){
+//     alert("Password cannot start with a number")
+// }
+// else if (!/[a-zA-Z]/.test(password) || !/[0-9]/.test(password)) {
+//     alert("Password must contain letters and numbers")
+// }
+// else {
+//     alert("Password is valid")
+// }
+
+//Q16
+let university = "University of Karachi"
+let universityArray = university.split("")
+document.write("<br><br>String: " + university)
+document.write("<br>Array: <br>" + universityArray.join("<br>"))
+
+// Q17
+// let userInput = prompt("Enter a string", "Pakistan")
+// document.write("<br><br>User input: " + userInput)
+// document.write("<br>Last character of input: " + userInput.charAt(userInput.length - 1))
+
+// Q18
+let text = "The quick brown fox jumps over the lazy dog"
+document.write("<br><br>Text: " + text)
+let count = (text.match(/the/gi) || []).length
+document.write("<br>There are " + count + " occurrence(s) of word 'the'")
+
+document.write("<h2>Chapter 21 ✔</h2>")
+document.write("<h2>Chapter 22 ✔</h2>")
+document.write("<h2>Chapter 23 ✔</h2>")
+document.write("<h2>Chapter 24 ✔</h2>")
+document.write("<h2>Chapter 25 ✔</h2>")

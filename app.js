@@ -619,7 +619,7 @@ console.log(colorNames)
 // console.log("After adding " + askedColor + " color to the end --> " + colorNames)
 
 // c
-colorNames.unshift("Pink","Purple")
+colorNames.unshift("Pink", "Purple")
 console.log("After adding 2 more colors colors to beginning --> " + colorNames)
 
 // d
@@ -668,10 +668,10 @@ arr2.push("my")
 arr2.push("laptop")
 console.log("Array: " + arr2)
 
-console.log("Out:\n"+ arr2.shift())
-console.log("Out:\n"+ arr2.shift())
-console.log("Out:\n"+ arr2.shift())
-console.log("Out:\n"+ arr2.shift())
+console.log("Out:\n" + arr2.shift())
+console.log("Out:\n" + arr2.shift())
+console.log("Out:\n" + arr2.shift())
+console.log("Out:\n" + arr2.shift())
 console.log("Array after removing all elements: " + arr2)
 
 document.write("<h2>Chapter 14 ✔</h2>")
@@ -687,7 +687,7 @@ let multiDimensionalArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
 console.log(multiDimensionalArray)
 
 // Q3
-for(let i = 1 ; i<=10 ; i++){
+for (let i = 1; i <= 10; i++) {
     console.log(i)
 }
 
@@ -700,37 +700,37 @@ for(let i = 1 ; i<=10 ; i++){
 // }
 
 // Q5
-let fruits = ["apple" , "banana" , "mango" , "orrange" , "strawberry"]
+let fruits = ["apple", "banana", "mango", "orrange", "strawberry"]
 console.log(fruits)
 
 for (let i = 0; i < fruits.length; i++) {
-    console.log("Element at index " , i , " is " , fruits[i])    
+    console.log("Element at index ", i, " is ", fruits[i])
 }
 
 // Q6
 document.write("Counting: ")
 for (let i = 1; i <= 15; i++) {
-    document.write(i , ", ")
+    document.write(i, ", ")
 }
 
 document.write("<br>Reverse Counting: ")
 for (let i = 10; i >= 1; i--) {
-    document.write(i , ", ")
+    document.write(i, ", ")
 }
 
 document.write("<br>Even: ")
-for (let i = 0; i <= 20; i+=2) {
-    document.write(i , ", ")
+for (let i = 0; i <= 20; i += 2) {
+    document.write(i, ", ")
 }
 
 document.write("<br>Odd: ")
-for (let i = 1; i <= 20; i+=2) {
-    document.write(i , ", ")
+for (let i = 1; i <= 20; i += 2) {
+    document.write(i, ", ")
 }
 
 document.write("<br>Series: ")
-for (let i = 2; i <= 20; i+=2) {
-    document.write(i , "k, ")
+for (let i = 2; i <= 20; i += 2) {
+    document.write(i, "k, ")
 }
 
 // Q7
@@ -750,8 +750,8 @@ for (let i = 2; i <= 20; i+=2) {
 // }
 
 // Q8
-let myNumArray = [23,5,13,34,96,66,128]
-document.write("<br><br>Array items: " , myNumArray)
+let myNumArray = [23, 5, 13, 34, 96, 66, 128]
+document.write("<br><br>Array items: ", myNumArray)
 
 let largestNum = myNumArray[0]
 for (let i = 0; i < myNumArray.length; i++) {
@@ -761,10 +761,10 @@ for (let i = 0; i < myNumArray.length; i++) {
         }
     }
 }
-document.write("<br>Largest Number is: " , largestNum)
+document.write("<br>Largest Number is: ", largestNum)
 
 // Q9
-document.write("<br><br>Array items: " , myNumArray)
+document.write("<br><br>Array items: ", myNumArray)
 let smallestNum = myNumArray[0]
 for (let i = 0; i < myNumArray.length; i++) {
     for (let j = 0; j < i; j++) {
@@ -773,13 +773,13 @@ for (let i = 0; i < myNumArray.length; i++) {
         }
     }
 }
-document.write("<br>Smallest Number is: " , smallestNum)
+document.write("<br>Smallest Number is: ", smallestNum)
 
 // Q10
 document.write("<br><br>Multiples of 5 between 1 and 100:<br>")
 for (let i = 1; i <= 100; i++) {
     if (i % 5 === 0) {
-        document.write(i , ", ")
+        document.write(i, ", ")
     }
 }
 
@@ -804,17 +804,17 @@ document.write("<h2>Chapter 20 ✔</h2>")
 // Q3
 let word = "Pakistan"
 document.write("String: " + word)
-document.write("<br>Index of 'n' is: " , word.indexOf("n"))
+document.write("<br>Index of 'n' is: ", word.indexOf("n"))
 
 // Q4
 word = "Hello World"
 document.write("<br><br>String: " + word)
-document.write("<br>Last index of 'l' is: " , word.lastIndexOf("l"))
+document.write("<br>Last index of 'l' is: ", word.lastIndexOf("l"))
 
 // Q5
 word = "Pakistani"
 document.write("<br><br>String: " + word)
-document.write("<br>Character at index 3 is: " , word.charAt(3))
+document.write("<br>Character at index 3 is: ", word.charAt(3))
 
 // Q6
 // let firstName = prompt("Enter your first name", "Umair")
@@ -837,10 +837,10 @@ document.write("<br>After replacement: " + message)
 // Q9
 let numString = "472"
 document.write("<br><br>Value: " + numString)
-document.write("<br>Type: " + typeof(numString))
+document.write("<br>Type: " + typeof (numString))
 numString = parseInt(numString)
 document.write("<br>Value: " + numString)
-document.write("<br>Type: " + typeof(numString))
+document.write("<br>Type: " + typeof (numString))
 
 // Q10
 // let userInput = prompt("Enter a string", "umairalimalik")
@@ -918,3 +918,88 @@ document.write("<h2>Chapter 22 ✔</h2>")
 document.write("<h2>Chapter 23 ✔</h2>")
 document.write("<h2>Chapter 24 ✔</h2>")
 document.write("<h2>Chapter 25 ✔</h2>")
+
+// ----------------------------------> Chapter 26-30 <-------------------------------------------
+// Q1
+let positiveInteger = 5.7689698
+document.write("Number: " + positiveInteger)
+document.write("<br>Round off value: " + Math.round(positiveInteger))
+document.write("<br>Floor value: " + Math.floor(positiveInteger))
+document.write("<br>Ceil value: " + Math.ceil(positiveInteger))
+
+// Q2
+let negativeFloating = 2.46476
+document.write("<br><br>Number: " + negativeFloating)
+document.write("<br>Round off value: " + Math.round(negativeFloating))
+document.write("<br>Floor value: " + Math.floor(negativeFloating))
+document.write("<br>Ceil value: " + Math.ceil(negativeFloating))
+
+// Q3
+let absoluteValue = -4
+document.write("<br><br>Number: " + absoluteValue)
+document.write("<br>Absolute value: " + Math.abs(absoluteValue))
+
+// Q4
+let randomDice = Math.ceil(Math.random() * 6)
+document.write("<br><br>Random dice value: " + randomDice)
+
+// Q5
+let randomCoin = Math.ceil(Math.random() * 2)
+document.write("<br><br>", randomCoin)
+if (randomCoin == 1) {
+    document.write("<br>Random coin value: Tails")
+} else {
+    document.write("<br>Random coin value: Heads")
+}
+
+// Q6
+let randomNum = Math.ceil(Math.random() * 100)
+document.write("<br><br>Random number between 1 and 100: " + randomNum)
+
+// Q7
+// let userWeight = prompt("Enter your weight in kilograms", "70kilograms")
+// document.write("<br><br>Your weight is: " + parseInt(userWeight) + " kilograms")
+
+// Q8
+// let secretNum = Math.ceil(Math.random() * 10)
+// let userGuess = +prompt("Guess the secret number between 1 and 10", "2")
+// if (userGuess === secretNum) {
+//     alert("Congratulations! You guessed the secret number.")
+// } else {
+//     alert("Try again! The secret number was " + secretNum)
+// }
+
+document.write("<h2>Chapter 26 ✔</h2>")
+document.write("<h2>Chapter 27 ✔</h2>")
+document.write("<h2>Chapter 28 ✔</h2>")
+document.write("<h2>Chapter 29 ✔</h2>")
+document.write("<h2>Chapter 30 ✔</h2>")
+
+// ----------------------------------> Chapter 31-34 <-------------------------------------------
+// Q1
+let currentDate = new Date()
+document.write("Current Date is: " , currentDate)
+
+//Q2
+let currentMonth = currentDate.getMonth()
+let monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+document.write("<br>Current Month: " + monthNames[currentMonth])
+
+//Q3
+let currentDay = currentDate.getDay()
+let halfDayNames = ["Sun", "Mon" , "Tue" , "Wed" , "Thu" , "Fri" , "Sat"]
+document.write("<br>Today is: " , halfDayNames[currentDay])
+
+//Q4
+if (currentDay == 0 || currentDay == 6) {
+    document.write("<br>Today is Fun Day! because it's weekend")
+}
+
+//Q5
+let todayDate = currentDate.getDate()
+if (todayDate < 16) {
+    document.write("<br>First fifteen days of the month")
+}else{
+    document.write("<br>Last fifteen days of the month")
+}
+
